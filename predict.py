@@ -1,7 +1,7 @@
 import argparse
 import json
 import numpy as np
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 from utils import process_image, predict
 
 def main():
